@@ -1,0 +1,36 @@
+# Dataset (downloaded with KaggleHub, never committed)
+data/
+datasets/
+*.zip
+
+# Large or regenerable outputs written by the notebook
+results/models/
+results/features/
+results/keras_tuner/
+*.keras
+*.h5
+*.joblib
+*.npz
+*.npy
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
